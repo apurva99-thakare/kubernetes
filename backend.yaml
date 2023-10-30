@@ -27,7 +27,6 @@ metadata:
   labels:
     app.kubernetes.io/name: proxy
   name: tomcat-deployment
-  namespace: backend
 spec:
   ports:
   - port: 8080
