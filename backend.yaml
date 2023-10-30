@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tomcat-deployment
-  namespace: backend
   labels:
     app.kubernetes.io/name: proxy
 spec:
